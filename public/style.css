@@ -1,0 +1,22 @@
+
+.inputText{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 30px;
+    outline:none;
+    
+}
+#btnLogin{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    border: node;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
