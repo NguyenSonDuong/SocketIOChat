@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <div class="container m-b-3">
+    <div class="container m-b-3" style="overflow-y: scroll;height:90vh;">
         <div class="row">
             <h1>Chat realtime</h1>
         </div>
@@ -21,12 +21,12 @@
                     <img src="user.svg" width="50px" height="50px" />
                     <p class="border  p-3 my-0"
                         style="border-radius: 20px; background-color: rgb(255, 85, 85); color:white">
-                        Use border utilities to add or remove<br />
+                        Use border utilities to add or remove<br/>
                         Use border utilities to add or remove an element’s borders. Choose from all borders or one at a
-                        time.<br />
+                        time.<br/>
                         Use border utilities to add or remove an element’s borders. Choose from all borders or one at a
                         time.Use border utilities to add or remove an element’s borders. Choose from all borders or one
-                        at a time.<br />
+                        at a time.<br/>
                     </p>
                 </span>
             </div>
@@ -59,7 +59,7 @@
             </div>
             <div class="col">
                 <div class="m-1 d-inline-flex justify-content-end align-items-end" style="gap: 10px; float: right">
-                    <p class="border border-3 p-3 my-0 " style="border-radius: 20px">
+                    <p class="border border-3 p-3 my-0" style="border-radius: 20px">
                         asdfashdfgjkasdh<br />
                         asdfashdfgjkasdh
                         asdfashdfgjkasdh
@@ -125,13 +125,12 @@
             <div class="col">
             </div>
         </div>
+        
     </div>
     <nav class="fixed-bottom container" style="background-color: white;">
-        <div class="mb-3">
-            <div class="d-flex justify-content-center align-items-center">
-                <input class="form-control " type="text" id="formFile">
-                <button class="form-control" >Send</button>
-            </div>
+        <div class="mb-3 sendChatConten" >
+                <input class="inputText"  type="text" id="formFile"  >
+                <button class="btnSend"   >Send</button>
           </div>
     </nav>
 </body>
