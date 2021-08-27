@@ -9,7 +9,10 @@ app.get("/",(req,res)=>{
     res.render("home");
 });
 
+app.get("/goodnighttoyou",(req,res)=>{
+    res.render("goodnight",{name:"Hien"});
+})
 
-app.listen(3000,()=>{
+app.listen(8080,()=>{
     console.log("connect to server");
 });
