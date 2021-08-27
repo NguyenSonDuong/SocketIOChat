@@ -13,6 +13,6 @@ app.get("/goodnighttoyou",(req,res)=>{
     res.render("goodnight",{name:"Hien"});
 })
 
-app.listen(8080,()=>{
+app.listen(3000,()=>{
     console.log("connect to server");
 });
